@@ -2,4 +2,15 @@
 
 * {
   font-family: FiraCode Mono Nerd Font;
+  font-size: 16px;
+  border-radius: 0.75em;
+  }
+
+  window#waybar {
+      border: 2px solid @surface1;
+      background: @base;
+      box-shadow: 1px 1px 10px 10px @mantle;
+      color: @text;
+      transition-property: background-color;
+      transition-duration: 0.5s;
 }
