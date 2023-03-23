@@ -63,6 +63,7 @@ box {
   font-size: 1.50em;
   padding-left: 1em;
   padding-right: 1em;
+  color: @blue;
 }
 
 #cpu,
