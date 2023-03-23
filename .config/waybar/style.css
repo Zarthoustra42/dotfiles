@@ -1,16 +1,27 @@
-@import "frappe.css";
+@import "macchiato.css";
 
 * {
-  font-family: FiraCode Mono Nerd Font;
-  font-size: 16px;
-  border-radius: 0.75em;
-  }
-
-  window#waybar {
-      border: 2px solid @surface1;
-      background: @base;
-      box-shadow: 1px 1px 10px 10px @mantle;
-      color: @text;
-      transition-property: background-color;
-      transition-duration: 0.5s;
+    font-family: FiraCode Nerd Font;
+    font-size: 13px;
+    border-radius: 0.85em;
 }
+
+window#waybar {
+  border: 2px solid @surface1;
+  background: @base;
+  box-shadow: 1px 1px 10px 10px @mantle;
+  color: @text;
+  transition-property: background-color;
+}
+
+window#waybar.hidden {
+}
+
+/*
+window#waybar.empty {
+    background-color: transparent;
+}
+window#waybar.solo {
+    background-color: #FFFFFF;
+}
+*/
