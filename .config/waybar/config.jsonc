@@ -6,7 +6,7 @@
    // Choose the order of the modules
    "modules-left": ["custom/logo", "wlr/workspaces", "hyprland/window"],
    "modules-center": [],
-   "modules-right": ["cpu", "memory", "disk"],
+   "modules-right": ["group/stats"],
    // Modules configuration
    "custom/logo": {
      "format": ""
@@ -32,6 +32,10 @@
     "hyprland/window": {
         "format": "{}",
         "separate-outputs": true
+    },
+    "group/stats": {
+      "orientation": "horizontal",
+      "modules": ["cpu", "memory", "disk"]
     },
     "cpu": {
       "format": " {usage}%",
