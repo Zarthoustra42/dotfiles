@@ -54,18 +54,12 @@ box {
   color: @blue;
 }
 
+#workspaces button.urgent {
+  background-color: @red;
+  color: @text;
+}
+
 #custom-logo {
   font-size: 1.50em;
   padding-left: 1em;
   padding-right: 1em;
-  color: @blue;
-}
-
-/*
-window#waybar.empty {
-    background-color: transparent;
-}
-window#waybar.solo {
-    background-color: #FFFFFF;
-}
-*/
