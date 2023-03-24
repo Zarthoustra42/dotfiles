@@ -1,8 +1,5 @@
 max-visible=10
 sort=-time
-# determines which monitor to display notification on
-# if you dont need, just remove setting
-output=DP-2 
 
 layer=top
 anchor=top-right
